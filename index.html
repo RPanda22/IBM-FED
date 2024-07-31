@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricbuzz Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="Cricbuzz Logo" class="logo">
+            <h1>Cricbuzz Clone</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="livescores.html">Live Scores</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="archive.html">Recent Matches</a></li>
+                            <li><a href="schedule.html">Upcoming Matches</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="archive.html">Archives</a></li>
+                    <li><a href="news.html">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <input type="text" id="search" placeholder="Search news...">
+            <input type="date" id="filter-date" placeholder="Filter by date">
+
+            <div class="top-matches">
+                <div class="match-card">
+                    <div class="match-info">
+                        <div class="teams">
+                            <span>ZIM</span>
+                            <span class="score">103-1 (43.5)</span><br>
+                            <span>IRE</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Day 1: 2nd Session</span><br>
+                            <span>Only Test - Zimbabwe tour of Ireland, 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-info">
+                        <div class="teams">
+                            <span>Manchester Originals</span>
+                            <span class="score">85-5 (16.2)</span><br>
+                            <span>Welsh Fire</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Ongoing</span><br>
+                            <span>3rd Match - The Hundred Mens Competition 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-info">
+                        <div class="teams">
+                            <span>Washington Freedom</span><br>
+                            <span>San Francisco Unicorns</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Friday, 26 Jul, 06:00 AM</span><br>
+                            <span>Qualifier - Major League Cricket 2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="match-card">
+                    <div class="match-info">
+                        <div class="teams">
+                            <span>England</span><br>
+                            <span>West Indies</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Friday, 26 Jul, 03:30 PM</span><br>
+                            <span>3rd Test - West Indies tour of England, 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="sidebar-left">
+                    <h2>Latest News</h2>
+                    <ul class="latest-news">
+                        <li>Marufa on a mission to improve death bowling skills<br><sub> 5h ago</sub></li><br>
+                        <li>Harry Brook wants 'to be Harry Brook, not anybody else'<br><sub> 17h ago</sub></li><br>
+                        <li>Dushmantha Chameera ruled out of India T20Is<br><sub> 20h ago</sub></li><br>
+                        <li>Punjab Kings unlikely to renew Bayliss contract; looking for an Indian coach<br><sub> 1d ago</sub></li><br>
+                        <li>Want to be as ruthless as we can as a batting unit - Pope<br><sub> 1d ago</sub></li><br>
+                        <li>Associates decry scrapping of East Asia Pacific T20 Qualifier<br><sub> 1d ago</sub></li><br>
+                        <li>Charith Asalanka to lead SL in T20I series against India<br><sub>2d ago</sub></li><br>
+                        <p>More news...</p>
+                    </ul>
+
+                    <h2>Latest Photos</h2>
+                    <ul class="latest-photos">
+                        <li>
+                            <img src="images/image1.jpg" alt="Photo 1">
+                            <p>Anderson's 21-year-old career in pictures</p>
+                        </li>
+                        <li>
+                            <img src="images/image2.jpg" alt="Photo 2">
+                            <p>India's World Cup win celebrations</p>
+                        </li>
+                        <li>
+                            <img src="images/image3.jpg" alt="Photo 3">
+                            <p>Rohit Sharma: Two World Cups bookend a sterling T20I career</p>
+                        </li>
+                        <li>
+                            <img src="images/image4.jpg" alt="Photo 4">
+                            <p>Virat Kohli: A T20 behemoth with a title in tow</p>
+                        </li>
+                        <li>
+                            <img src="images/image5.jpg" alt="Photo 5">
+                            <p>T20 World Cup 2024, Final - India's celebrations, South Africa's dejection</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-news">
+                    <div class="news-item">
+                        <img src="images/news1.jpg" alt="News 1">
+                        <h3>Kings unlikely to renew Bayliss contract, seek an Indian coach</h3>
+                        <p>Having finished eighth and ninth respectively in the last two seasons under Bayliss, the franchise might look for pastures new</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/news2.jpg" alt="News 2">
+                        <h3>Dushmantha Chameera ruled out of India T20Is</h3>
+                        <p>The Sri Lankan pacer hasn't recovered from Bronchitis and respiratory infection, and has been replaced by Asitha Fernando</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/news3.jpg" alt="News 3">
+                        <h3>Harry Brook wants 'to be Harry Brook, not anybody else'</h3>
+                        <p>England's latest batting superstar wants to keep things simple even as he dares to dream big</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/news4.jpg" alt="News 4">
+                        <h3>Ireland, Zimbabwe gear up for historic Test in Belfast</h3>
+                        <p>This will be the first men's Test match between these two sides and also the first home Test for Ireland since their inaugural Test against Pakistan in 2018</p>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/news5.jpg" alt="News 5">
+                        <h3>Stoinis, du Plessis fire TSK to Eliminator win over MI New York</h3>
+                        <p>A 101-run stand between du Plessis and Devon Conway helped TSK chase down 163 and knock the holders out</p>
+                    </div>
+                </div>
+
+                <div class="sidebar-right">
+                    <h2>Upcoming Matches</h2>
+                    <ul class="upcoming-matches">
+                        <li>Match 1: India vs South Africa</li>
+                        <li>Match 2: England vs West Indies</li>
+                        <li>Match 3: Australia vs Pakistan</li>
+                        <li>Match 4: Ireland vs Oman</li>
+                        <li>Match 5: UAE vs Uganda</li>
+                        <li>Match 6: IND-W vs SA-W</li>
+                        <li>Match 7: Eng-W vs Aus-W</li>
+                    </ul>
+
+                    <h2>Specials</h2>
+                    <ul class="specials">
+                        <li>
+                            <img src="images/special1.jpg" alt="Special 1">
+                            <div class="special-info">
+                                <h3>India's World Cup win wasn't a feeling, it was an emotion</h3>
+                                <p>  It was the kind of emotion that cannot easily be explained. There was pure joyfor sure. But there was also relief, and that bit of unexplained mania</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/special2.jpg" alt="Special 2">
+                            <div class="special-info">
+                                <h3>Saurabh Netravalkar Interview: Filing for patents to winning Super Overs</h3>
+                                <p>The engineer from Oracle and lead bowler of USA opens up after catching the eye of the global cricket community</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/special3.jpg" alt="Special 3">
+                            <div class="special-info">
+                                <h3>When dragons roamed cricket's empire</h3>
+                                <p>Canada is set to meet its oldest cricket rival on Saturday, and they have a score to settle</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/special4.jpg" alt="Special 4">
+                            <div class="special-info">
+                                <h3>Heinrich Klaasen: I am not trying to impress anyone anymore</h3>
+                                <p>In an exclusive interview, the South African opened up on the work that went behind honing his six-hitting, his detailed preparation against spin, his cricketing hero(es) and a lot more</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Cricbuzz Clone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
